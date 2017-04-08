@@ -10,18 +10,27 @@
 <h1 class="purple lighten-2" class="light-italic">Cultured
 <img class="circle" id="logo" src="./images/slideshow1.jpg">
 </h1>
-<div class="input-field col s6">
-     <input id="CityInput" type="text" class="validate">
-     <label for="CityInput">City</label>
-   <div class="input-field col s6">
-      <input id="CountryInput" type="text" class="validate">
-     <label for="CountryInput">Country</label>
-   <div class="input-field col s6">  
-     <input type="date class="dateselector">
-     <a  class="waves-effect waves-light btn">Submit</a>
-       </div>
+
+<!-- input fields -->
 <div class="nav-fixed">
-<ul>
+
+    <div class="input-field col s6">
+      <input id="CityInput" type="text" class="validate">
+      <label for="CityInput">City</label>
+    <div class="input-field col s6">
+       <input id="CountryInput" type="text" class="validate">
+      <label for="CountryInput">Country</label>
+    <div class="input-field col s6">  
+      <input type="date class="dateselector">
+      <label for="dateselector">Date MM/DD/YYYY</label>
+      <div class="row">
+      <div class="input-field col s6"> 
+      <button class="btn waves-effect waves-light" type="submit" id="submitbutton" name="action">Submit
+      <i class="material-icons right">send</i>
+      </button>
+    </div>    
+  
+  <ul>    
 	<li><a class="waves-effect waves-light btn">Hotels<i class="material-icons right">room</i></a></li>
 	<li><a class="waves-effect waves-light btn">Weather<i class="material-icons right">cloud</i></a></li>
 	<li><a class="waves-effect waves-light btn">Events<i class="material-icons right">receipt</i></a></li>
@@ -64,7 +73,7 @@ $(document).ready(function(){
 
 
 
-
+<script type="text/javascript" src="assets/logic.js"></script>
 
 </body>
 </html>
