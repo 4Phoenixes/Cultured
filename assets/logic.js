@@ -1,6 +1,7 @@
    
 // hotel API search and logi. 
 
+
 	var APIURL = "https://cors-anywhere.herokuapp.com/http://api.hotwire.com/v1/tripstarter/hotel";
 	var APIKey = "9utpjxqyqm6wd2r3bvtgw5mr";
 	
@@ -27,56 +28,3 @@
 			console.log(date1);
 			console.log(date2)
 			console.log(JSON.parse(results));
-		})
-
-	})
-
-// performing the AJAX GET request
-// 	$.ajax({
-// 		url: queryURL,
-// 		method: "GET"
-// 	})
-
-// // after the query is done record results in a variable. 
-// 	.done(function(response) {
-// 		var results = response.data;
-// 		console.log(results);
-// 		console.log(queryURL);
-// 	})
- 
-
-
-// 	function setup () {
-// 	var queryURL = APIURL + CityInput + APIKey;
-// 		function loadJSON (queryURL){
-// 			$.ajax({
-// 		url: queryURL,
-// 		method: "GET"
-// 		}).done(function(response) {
-// 			console.log(response)
-// 	}
-
-// 	// pulling the query items on clicking the submit
-// 	$("#submit").on("click", function() {
-// 	var queryURL = APIURL + CityInput + APIKey;
-
-// 	// performing our AJAX GET request
-// 	$.ajax({
-// 		url: queryURL,
-// 		method: "GET"
-// 	})
-
-// 	//after the data comes back from the API
-// 	.done(function(response) {
-// 		//storing an array of results in the reults variable. 
-// 		var results = response.data;
-// 		consult.log(results);
-
-
-// 	})
-
-// })
-
-
-
-// }
