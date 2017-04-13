@@ -1,5 +1,6 @@
 
 
+
 $("#button").on("click", function() {
 	event.preventDefault();
 	$("tbody").empty();
@@ -60,5 +61,4 @@ $("#button").on("click", function() {
 
     
 
-
-
+   

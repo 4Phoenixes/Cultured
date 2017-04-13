@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<h1>weather forecast</h1>
+</head>
+
+<body>
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript">
+		var searchTerm = "";
+		var numResults = 0;
+
+		var queryURLBase = "https://http://openweathermap.org/" + authKey + "&q=";
+
+		var API = "http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID={APIKEY}"
+		var APIKEY= "a8c578ac927f9cdeb7aa1a881bfa1f78"
+
+		$.ajax({
+		      url: "http://api.openweathermap.org/data/2.5/forecast?q=London,us&APPID=" + APIKEY,
+		      method: "GET"
+		    }).done(function(response) {
+		      console.log(response);
+		    });
+		
+		$("#run-search").on("click", function(event) {
+  			event.preventDefault();
+
+</script>
+
+</body>
+</html>
+
